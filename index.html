@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | 2D Test Sonepar</title>
-    <link rel="shortcut icon" href="/TemplateData/favicon.ico">
-    <link rel="stylesheet" href="/TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -37,7 +37,6 @@
       // Modify or remove this function to customize the visually presented
       // way that non-critical warnings and error messages are presented to the
       // user.
-
       function unityShowBanner(msg, type) {
         function updateBannerVisibility() {
           warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
@@ -57,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Projektek.loader.js";
+      var loaderUrl = buildUrl + "/Unity_Buildek.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Projektek.data.br",
-        frameworkUrl: buildUrl + "/Projektek.framework.js.br",
-        codeUrl: buildUrl + "/Projektek.wasm.br",
+        dataUrl: buildUrl + "/Unity_Buildek.data",
+        frameworkUrl: buildUrl + "/Unity_Buildek.framework.js",
+        codeUrl: buildUrl + "/Unity_Buildek.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "2D Test Sonepar",
